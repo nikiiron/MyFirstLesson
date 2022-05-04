@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css(style)/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--rules: атрибут границ-->
+    <!--rows:границы только между строками
+    cols: границы только между столбцами
+all: отображать все границы
+none: границ нет-->
+
+<!--выравнивание  
+    align(по горизонтали) - left centre right (justify - по центру ячейки) 
+valign(по вертикали) - top, center, bottom-->
+    <table frame="box" rules="all">
+        <caption>Таблица 1, что-то она значит</caption>
+        <!--TR - строка -->
+        <!--bgcolor - изменение цвета-->
+        <tr >
+            <!-- th - название колонки-->
+            <!--colspan объединение столбцов-->
+            <!--rowspan объединение строк-->
+            <th >Колонка 1, (название колонки)</th>
+            <th>Колонка 2, (название)</th>
+            <th>Колонка 3</th>
+        </tr>
+     <tr class="color-red">
+         <!--TD - столбец -->  
+         <td >
+              Строка 1 Столбец 1
+         </td>
+         <td>Строка 1 столбец 2 </td>
+         <td>Строка 1 столбец 3</td>
+     </tr>
+     <tr>
+         <td>
+             Строка 2 Столбец 1
+         </td>
+         <td>Строка 2 Столбец 2
+         </td>
+     </tr>    
+    </table>
+</body>
+</html>

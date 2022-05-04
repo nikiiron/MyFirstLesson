@@ -1,0 +1,32 @@
+body {
+    font-size: 15px;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+span {
+    font-weight: bold;
+}
+
+.color1 {
+    color: #0000ff ;
+}
+
+.color2 {
+    color: blueviolet;
+}
+.author {
+    font-size: 20px;
+}
+
+.color_orange {
+background-color: orange; 
+}
+.color_yellow {
+    background-color: yellow;
+}
+.text_white {
+    color: white;
+}
